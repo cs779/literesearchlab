@@ -12,6 +12,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
+[id]{scroll-margin-top:120px}
 body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 var(--serif);-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
 a{color:var(--link);text-decoration:none}
@@ -53,7 +54,7 @@ p{margin:0 0 1em}
 
 /* ---------- welcome block ---------- */
 .welcome{display:grid;grid-template-columns:1fr 1fr;margin-top:28px;border-radius:var(--r);overflow:hidden;background:var(--bg-2)}
-.welcome .ph{aspect-ratio:1/1;width:min(78%,340px);max-width:100%;margin:32px auto;border-radius:50%;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 6px #fff,0 0 0 8px var(--teal)}
+.welcome .ph{aspect-ratio:1/1;height:auto;align-self:center;justify-self:center;width:min(78%,340px);max-width:100%;margin:32px auto;border-radius:50%;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 6px #fff,0 0 0 8px var(--teal)}
 .welcome .tx{padding:40px 48px;display:flex;flex-direction:column;justify-content:center}
 .welcome .tx small{font-size:15px;color:var(--muted)}
 .welcome .tx h2{font-size:26px;font-weight:500;margin-top:10px}
