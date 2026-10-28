@@ -53,7 +53,7 @@ p{margin:0 0 1em}
 
 /* ---------- welcome block ---------- */
 .welcome{display:grid;grid-template-columns:1fr 1fr;margin-top:28px;border-radius:var(--r);overflow:hidden;background:var(--bg-2)}
-.welcome .ph{aspect-ratio:1/1;max-height:420px;width:100%;object-fit:cover;object-position:center 20%}
+.welcome .ph{aspect-ratio:1/1;width:min(78%,340px);max-width:100%;margin:32px auto;border-radius:50%;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 6px #fff,0 0 0 8px var(--teal)}
 .welcome .tx{padding:40px 48px;display:flex;flex-direction:column;justify-content:center}
 .welcome .tx small{font-size:15px;color:var(--muted)}
 .welcome .tx h2{font-size:26px;font-weight:500;margin-top:10px}
@@ -115,7 +115,7 @@ a.card:hover{text-decoration:none;box-shadow:0 8px 22px rgba(27,42,74,.12)}
 
 /* people */
 .pi{display:grid;grid-template-columns:300px 1fr;gap:36px;align-items:start}
-.pi img{border-radius:var(--r);width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 20%}
+.pi img{border-radius:50%;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 20%;box-shadow:0 0 0 6px #fff,0 0 0 8px var(--teal)}
 .pi h2{font-size:28px}
 .pi .role{color:var(--teal);margin:4px 0 14px}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
@@ -211,6 +211,5 @@ footer .fb img{width:44px;height:44px;border-radius:6px;background:#fff}
   .hero{height:280px}.hero.small{height:180px}
   .tiles,.cards,.vids,.gal,.stats,.patents,.cgrid,.caps,footer .fg{grid-template-columns:1fr}
   .ni{grid-template-columns:1fr;gap:4px}
-  .welcome .ph{max-height:340px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
