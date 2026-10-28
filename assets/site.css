@@ -100,8 +100,9 @@ a.card:hover{text-decoration:none;box-shadow:0 8px 22px rgba(27,42,74,.12)}
 .plist li{padding:12px 0;border-bottom:1px solid var(--line)}
 .plist li b{color:var(--navy)}
 .plist .src{display:block;font-size:14px;color:var(--muted);font-style:italic}
-.area{display:grid;grid-template-columns:260px 1fr;gap:28px;padding:30px 0;border-bottom:1px solid var(--line)}
+.area{display:grid;grid-template-columns:300px 1fr;gap:28px;padding:30px 0;border-bottom:1px solid var(--line)}
 .area img{border-radius:var(--r);width:100%;aspect-ratio:1/1;object-fit:cover}
+.area img.wide{aspect-ratio:auto}
 .area img.sem{object-fit:contain;background:#0F1A2E;padding:18px}
 .area h2{font-size:25px;margin-bottom:8px}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:10px 0}
